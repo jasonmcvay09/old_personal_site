@@ -3,6 +3,7 @@ footer{
     padding: 15px 0px 15px 0px;
     background-color: #2f2f2f;
     color: #ffffff;
+    position: static; 
 }
 
 .carousel-inner img {
@@ -11,4 +12,53 @@ footer{
 }
 .carousel-caption h3 {
     color: #fff !important;
+}
+
+h1.gallery{
+    font-family: serif;
+    margin: 5% 0% 5% 0%;
+    font-size: 42px;
+    }
+
+h4.gallery{
+    text-align: center;
+    color: black;
+    font-family: serif;
+}
+p.gallery{
+    text-align: center;
+    color: black;
+    font-family: serif;
+}
+div.col-xs-3{
+    background-color: #2f2f2f;
+    color: whitesmoke;
+}
+div.bg{
+    background-color: #333;
+    padding: 5%;
+}
+
+}
+div.bio{
+    background-color: rgba(101, 95, 95, 0.6);
+    margin: 5% 40% 5% 0%;
+    padding: 1%;
+    border-style:solid;
+    border-color: whitesmoke;
+}
+
+h1.bio{
+    color: whitesmoke;
+    font-family: serif;
+}
+
+p.bio{
+    color: whitesmoke;
+    font-family: serif;
+    font-size: 18px
+}
+
+a.logos{
+    padding:10px;
 }
