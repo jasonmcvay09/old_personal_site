@@ -20,6 +20,11 @@ h1.gallery{
     font-size: 42px;
     }
 
+h2.bio{
+    font-family: sans-serif;
+    text-align: center;
+}
+
 h4.gallery{
     text-align: center;
     color: black;
@@ -46,6 +51,11 @@ h1.bio{
     
 }
 
+.thumbnail:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px #4699fa;
+}
+
 div.pubtext{
     width: 80%;
     float: left;
@@ -55,7 +65,7 @@ div.pubtext{
 }
 
 h4.pubtext{
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 
@@ -72,5 +82,10 @@ a.logos{
 }
 
 img.img-circle{
-    margin: 0% 5%; 
+    margin: 0% 16%
 }
+
+.carousel-inner > .item > img{
+    width:640px;
+    height:360px;
+     }
