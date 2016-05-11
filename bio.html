@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Bio</title>
+        <title>Home</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="main.css" rel="stylesheet" />    
@@ -12,7 +12,7 @@
     
     <body>
         
-                        <header class="navbar-inverse" role="banner">
+            <header class="navbar-inverse" role="banner">
                 <div class="container">
                     <nav role="navigation">
                     <div class="container-fluid">
@@ -30,8 +30,8 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                          <li class="active"><a href="bio.html">Bio <span class="sr-only">(current)</span></a></li>
+                          <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                          <li><a href="bio.html">Bio</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
@@ -51,30 +51,72 @@
                 </nav>
                 </div>
             </header>
-        
-        
+
         <div class="container">
-            <div class="container-fluid bg-3 text-center">
-              <h2>What kind of work have I done?</h2>
+            <br>
+            <div class="container marketing">
+
+              <!-- Three columns of text below the carousel -->
               <div class="row">
                 <div class="col-sm-4">
-                  <p>GIS</p>
-                  <img src="jason.jpg" class="img-responsive" style="display:inline" width="50%" alt="Image">
-                </div>
+                  <img class="img-circle" src="images/jasonandmesa.jpg" alt="Jason" width="240" height="240">
+                  <h2>Who Am I?</h2>
+                    <p>My name is Jason.</p>
+                    <p>I am a geographer currently living in Flagstaff, Arizona.</p><p>Below you can read about some of my recent projects.</p>
+                </div><!-- /.col-lg-4 -->
                 <div class="col-sm-4">
-                  <p>Remote Sensing</p>
-                  <img src="jason.jpg" class="img-responsive" style="display:inline" width="50%" alt="Image">
-                </div>
+                  <img class="img-circle" src="images/MississippiDelta_landsat.jpg" alt="Generic placeholder image" width="240" height="240">
+                    <h2>What do I do?</h2>
+                    <p>I work with a variety of geospatial data types</p>
+                    <p>I am an expert in GIS, remote sensing and lidar</p>
+                    <p>My interests include physical geography, ecology, forestry, and cartography</p>
+                </div><!-- /.col-lg-4 -->
                 <div class="col-sm-4">
-                  <p>Lidar</p>
-                  <img src="jason.jpg" class="img-responsive" style="display:inline" width="50%" alt="Image">
-                </div>
-              </div>
+                  <img class="img-circle" src="images/montana.jpg" alt="Generic placeholder image" width="240" height="240">
+                  <h2>Education</h2>
+                    <p>Master of Science, Geography. Virginia Tech</p>
+                    <p>Bachelor of Arts, Environmental Studies. University of Montana</p>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">UAVs for custom data collection <span class="text-muted">The cutting edge of remote sensing</span></h2>
+          <p class="lead">As a Geospatial Research Specialist at Northern Arizona's Remote Sensing and Geoinformatics Lab, one of my prime responsibilities was managing two Unmanned Aerial Vehicle (UAV) platforms.</p>
+            <p class="lead">I was responsible for craft maintenence, flight planning, piloting (and landing!), and data processing following missions. The octocopter pictured here weighs about 25 pounds and is equipped with a GNSS GPS, a lidar scanner and a hyperspectral sensor.</p>
+            <p class="lead">I successfully lead data collection missions to assess sand dune volume on the Paria Plateau, to measure Ponderosa Pine forest metrics near Flagstaff, AZ, and in partnership with Arizona Department of Natural Resources near Tombstone, AZ.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/octocopter.jpg" alt="Octocopter">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Post-fire sediment yield modeling <span class="text-muted">At the watershed scale</span></h2>
+          <p class="lead">As a GIS contractor for the USGS I worked on a post-fire sediment yield modeling project. To do this we used the InVEST Natural Capital modeling tool. I was responsible for collecting all the relevant input datasets, troubleshooting and running the models.</p>
+            <p class="lead">I ran these models for every HUC8 watershed in the western United States at pre and post-fire scenarios. This was then combined with Global Circulation Model (GCM) fire area projections to generate decadal maps of watershed area burned and sediment prodced.</p><p class="lead">This was the first landscape-scale modeling project to combine post-fire sediment yield estimates with future fire scenarios. The manuscript is currently under review with the journal <em>Nature</em>.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/invest.jpg" alt="InVEST Logo">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
             </div>
         </div>
-        
-        <footer class="container-fluid bg-4 text-center">
-             <p>Website designed by me</p>
+      
+      <footer class="container-fluid bg-4 text-center">
+            <p>Website designed by me</p>
             <p>Follow me here</p>
                 <a class="logos" href="https://www.linkedin.com/in/jasonmcvay86"> <img src="images/LinkedIn_logo.png" width="32px" class="img-responsive" style="display:inline" alt="image" target="_blank"></a>
                 <a class="logos" href="https://www.github.com/jasonmcvay09"> <img src="images/github_logo.png" width="32px" class="img-responsive" style="display:inline" alt="image" target="_blank"></a>
@@ -82,11 +124,10 @@
                 <a class="logos" href="#"> <img src="images/academia_logo.png" width="32px" class="img-responsive" style="display:inline" alt="image" target="_blank"></a>
                 <a class="logos" href="https://www.twitter.com/jasonmcvay/"> <img src="images/twitter-logo.png" width="32px" class="img-responsive" style="display:inline" alt="image" target="_blank"></a>
                 <a class="logos" href="https://www.instagram.com/jasonm86/"> <img src="images/instagram_logo.png" width="32px" class="img-responsive" style="display:inline" alt="image" target="_blank"></a>
+                
+                
         </footer>
-        
-        
-        
-        
+            
         <!--jquery-->
         <script
 			  src="https://code.jquery.com/jquery-2.2.3.js"
@@ -98,6 +139,5 @@
         <script 
                 src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
         </script>
-    </body>
-        
+    </body>  
 </html>
