@@ -15,7 +15,7 @@ footer{
 }
 
 h1.gallery{
-    font-family: serif;
+    font-family: sans-serif;
     margin: 5% 0% 5% 0%;
     font-size: 42px;
     }
@@ -23,42 +23,54 @@ h1.gallery{
 h4.gallery{
     text-align: center;
     color: black;
-    font-family: serif;
+    font-family: sans-serif;
 }
 p.gallery{
     text-align: center;
     color: black;
-    font-family: serif;
+    font-family: sans-serif;
 }
 div.col-xs-3{
     background-color: #2f2f2f;
     color: whitesmoke;
 }
 div.bg{
-    background-color: #333;
-    padding: 5%;
-}
-
-}
-div.bio{
-    background-color: rgba(101, 95, 95, 0.6);
-    margin: 5% 40% 5% 0%;
-    padding: 1%;
-    border-style:solid;
-    border-color: whitesmoke;
+    background-color: white;
+    padding: 3%;
+    margin: 1% 0%;
+    border-style: solid
 }
 
 h1.bio{
-    color: whitesmoke;
-    font-family: serif;
+    text-align: center;
+    
+}
+
+div.pubtext{
+    width: 80%;
+    float: left;
+    margin: 0% 10% 2% 10%;
+    border-top: solid 2px #4699fa;
+    border-bottom: solid 2px #4699fa;
+}
+
+h4.pubtext{
+    text-align: left;
+    padding: 10px;
+}
+
+li.bio{
+    text-align: left;
 }
 
 p.bio{
-    color: whitesmoke;
-    font-family: serif;
-    font-size: 18px
+    text-align: left
 }
 
 a.logos{
     padding:10px;
+}
+
+img.img-circle{
+    margin: 0% 5%; 
 }
